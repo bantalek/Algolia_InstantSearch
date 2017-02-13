@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "gulp dev",
     "server": "gulp server",
-    "prod": "BABEL_ENV=production webpack --config webpack.config.production.js"
+    "prod": "BABEL_ENV=production Node_ENV=production webpack --config webpack.config.production.js"
   },
   "author": "Algolia",
   "license": "Algolia",
