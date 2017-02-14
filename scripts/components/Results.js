@@ -9,13 +9,13 @@ const Results = () => (
       <SortBy
         items={[
           { value: 'restaurants', label: 'Featured' },
-          { value: 'restaurants_price_asc', label: 'Price asc.' },
-          { value: 'restaurants_price_desc', label: 'Price desc.' },
+          { value: 'restaurant_price_asc', label: 'Price asc.' },
+          { value: 'restaurant_price_desc', label: 'Price desc.' },
           ]}
         defaultRefinement="restaurants"
     />
   </section>
-  
+
   <main className="hits-container">
     <InfiniteHits className="hits" hitComponent={Restaurant} />
   </main>
