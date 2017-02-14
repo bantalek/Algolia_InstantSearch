@@ -983,7 +983,6 @@ form {
   height: 4em;
   font-size: 1em;
 }
-
 .ais-SearchBox__wrapper {
   display: flex;
   width: 90%;
@@ -1020,6 +1019,67 @@ form {
   font-size: inherit;
   appearance: none;
 }
+span.algolia-autocomplete {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100%;
+  min-width: 620px;
+  height: 4em;
+  font-size: 1em;
+}
+
+.aa-input {
+  display: flex !important;
+  width: 90em;
+  max-width: 90%;
+  height: 60%;
+  padding: 8px 16px;
+  color: gray;
+  border-radius: 4px;
+  background-color: white;
+  border: solid 1px #d4d8e3;
+}
+.aa-hint{
+  left: auto !important;
+  top: auto !important;
+  display: flex !important;
+  width: 90em;
+  max-width: 90%;
+  height: 60%;
+  padding: 8px 16px;
+  color: gray;
+  border-radius: 4px;
+  background-color: white;
+}
+
+  .aa-suggestion {
+    margin: .2em;
+    border-bottom: 2px
+  }
+  .aa-suggestion:hover {
+    background-color: #1c688e;
+    color: white;
+    margin: .2em;
+    border-bottom: 2px;
+    cursor: pointer;
+    border-radius: .3em;
+
+  }
+  .aa-dataset-0 {
+    background-color: white;
+    overflow: scroll;
+  }
+  .aa-with-0 {
+    background-color: white;
+    overflow: scroll;
+  }
+  .aa-dropdown-menu {
+    overflow: scroll;
+    border-radius: .3em;
+
+  }
+
 
 .ais-SearchBox__input::-webkit-search-decoration,.ais-SearchBox__input::-webkit-search-cancel-button,.ais-SearchBox__input::-webkit-search-results-button,.ais-SearchBox__input::-webkit-search-results-decoration {
   display: none;
