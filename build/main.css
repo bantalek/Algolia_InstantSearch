@@ -1077,7 +1077,7 @@ span.algolia-autocomplete {
   .aa-dropdown-menu {
     overflow: scroll;
     border-radius: .3em;
-
+    box-shadow: 10px 10px 5px #888888;
   }
 
 

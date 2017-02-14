@@ -79,5 +79,8 @@ module.exports = {
         include: path.join(__dirname, 'scripts')
       }
     ]
-  }
+  },
+  node: { fs: 'empty', net: 'empty', tls: 'empty' }
+
+
 };
