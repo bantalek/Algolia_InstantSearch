@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Restaurant from './RestaurantHit';
 import { InfiniteHits, Stats, SortBy } from 'react-instantsearch/dom';
 
-export default const Results = () => (
+const Results = () => (
   <div className="results-wrapper">
     <section className="results-topbar">
       <Stats />
@@ -20,3 +20,5 @@ export default const Results = () => (
     </main>
   </div>
 );
+
+export default Results;
