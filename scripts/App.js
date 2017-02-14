@@ -27,22 +27,3 @@ export default class App extends Component {
     );
   }
 }
-
-           // <CurrentRefinements/>
-           // <ClearAll/>
-           // 
-// <section id="results-topbar">
-//  <div class="sort-by">
-//    <label>Sort by</label><select class="ais-SortBy__root">
-//      <option value="ikea">
-//        Featured
-//      </option>
-//      <option value="ikea_price_asc">
-//        Price asc.
-//      </option>
-//      <option value="ikea_price_desc">
-//        Price desc.
-//      </option>
-//    </select>
-//  </div><span class="ais-Stats__root">4,618 results found in 1ms</span>
-// </section>
