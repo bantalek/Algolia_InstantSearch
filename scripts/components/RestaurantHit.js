@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Restaurant = ({ hit }) =>{
+const Restaurant = ({ hit }) => {
   const stars = [];
-  
+
   for (let i = 1; i < hit.stars_count; i++) {
     stars.push(<label  key={i} className="ais-StarRating__ratingIcon" />);
   }
@@ -14,12 +14,10 @@ const Restaurant = ({ hit }) =>{
         <img role="presentation" className="product-picture" src={hit.image_url} />
 
       </div>
-      
       <div className="product-desc-wrapper">
         <div className="product-name">
           <span className="ais-Highlight"><span className="ais-Highlight__nonHighlighted">{hit.name}</span></span>
         </div>
-        
         <div className="product-reputation">
 
           <span className="product-star-details">

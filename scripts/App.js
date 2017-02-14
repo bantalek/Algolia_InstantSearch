@@ -7,8 +7,6 @@ import SideBar from './components/SideBar.js';
 export default class App extends Component {
   render() {
     return (
-      // Add your component markup and other subcomponent references here.
-      // need to handle load more page at bottom and add scrolling to window
       <div className="container">
         <InstantSearch
           appId="FND5QH0PGJ"
